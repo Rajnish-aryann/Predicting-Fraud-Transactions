@@ -3,7 +3,7 @@ import os
 from sklearn.preprocessing import LabelEncoder
 import xgboost as xgb
 import numpy as np
-os.chdir("/home/prajjwal/Downloads/BW_Class")
+os.chdir("/home/debadri/Downloads/BW_Class")
 train=pd.read_csv("train.csv")
 test=pd.read_csv("test.csv")
 total=train.append(test)
